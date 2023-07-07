@@ -1,0 +1,75 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+.env
+# Executables
+*.exe
+*.exe~
+*.dll
+*.dylib
+
+# Build output
+/_obj/
+/_test/
+
+# Test binary, as go test compiles and runs it
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (created by go mod or glide)
+/vendor/
+/Godeps/
+/.glide/
+
+# Dependency files
+/gopkg.lock
+/glide.lock
+/manifest.json
+
+# Binary file for the application
+/bin/
+
+# Go specific
+*.log
+.idea/
+*.iml
+
+# Output of the go build command
+/build/
+
+# Operating System-specific files
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+lost+found/
+*~
+\#*\#
+.svn/
+
+# Editor-specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.komodotools
+*_flymake.*
+*.swp
+*.swo
+*.bak
+*.cache
+*.project
+*.settings
+*.tmproj
+*.tmp
